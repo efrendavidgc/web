@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Estudiante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Juan Pérez</h1>
+        <p>Desarrollador Web Full Stack en formación</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Cambiar Tema</button>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <p>Soy un estudiante apasionado por la tecnología y la resolución de problemas. Actualmente cursando el 4to semestre de Ingeniería de Software.</p>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Mis Habilidades Técnicas</h2>
+            <dl>
+                <dt>Frontend</dt>
+                <dd>HTML5, CSS3, JavaScript básico.</dd>
+                
+                <dt>Herramientas</dt>
+                <dd>Git, GitHub, VS Code.</dd>
+                
+                <dt>Idiomas</dt>
+                <dd>Español (Nativo), Inglés (B1).</dd>
+            </dl>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Académicos</h2>
+            <div class="project-grid">
+                <article class="card">
+                    <h3>Landing Page de Producto</h3>
+                    <p>Una página de aterrizaje creada con HTML y CSS puro.</p>
+                </article>
+                
+                <article class="card">
+                    <h3>Calculadora JS</h3>
+                    <p>Aplicación básica para realizar operaciones matemáticas.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Blog Personal</h3>
+                    <p>Diseño de blog con artículos simulados.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="email">Tu Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+                </div>
+                <div>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juan Pérez - Creado para la clase de Web I</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
